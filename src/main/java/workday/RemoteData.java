@@ -13,9 +13,17 @@ import java.util.stream.Stream;
 public class RemoteData {
 
     /*
-    Statistics of time cost for remote data: count[125118], min[114], max[17408], avg[388.259385665529], median[261]
-    Before the pool patch:
-    Statistics of remote data: count[8860], min[114], max[19521], avg[2191.4144353899883], median[2194]
+Before migration:
+Statistics of total: count[70429], min[24], max[943], avg[31.4], median[31]
+Statistics of fetch: count[70429], min[1], max[912], avg[2.1], median[2]
+
+Before the pool patch:
+Statistics of total: count[8860], min[114], max[19521], avg[1578.7], median[946]
+Statistics of fetch: count[8860], min[36], max[2727], avg[102.1], median[46]
+
+Latest:
+Statistics of total: count[125118], min[114], max[17408], avg[137.4], median[138]
+Statistics of fetch: count[125118], min[37], max[17058], avg[45.7], median[46]
     * */
     public static void main(String[] args)
         throws Exception {
@@ -25,9 +33,9 @@ public class RemoteData {
 
         final AtomicInteger sum = new AtomicInteger();
 
-        //        Files.walk(Paths.get("/Users/baofeng.xue/Downloads/_tomcat.oms.ots_2021.46.110_logs"))
-        //        Files.walk(Paths.get("/Users/baofeng.xue/Downloads/_tomcat.oms.ots_2021.35.129_logs (1)"))
-        Files.walk(Paths.get("/Users/baofeng.xue/Downloads/remote_data 2.log"))
+        Files.walk(Paths.get("/Users/baofeng.xue/Downloads/_tomcat.oms.ots_2021.46.110_logs"))
+            //Files.walk(Paths.get("/Users/baofeng.xue/Downloads/_tomcat.oms.ots_2021.35.129_logs (1)"))
+            //Files.walk(Paths.get("/Users/baofeng.xue/Downloads/remote_data 2.log"))
             .filter(p -> p.toString().contains("remote_data"))
             .forEach(
                 f -> {
