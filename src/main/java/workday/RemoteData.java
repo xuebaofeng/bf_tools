@@ -3,6 +3,7 @@ package workday;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -13,12 +14,9 @@ import java.util.stream.Stream;
 
 public class RemoteData {
 /*
-IntSummaryStatistics{count=293, sum=113760, min=114, average=388.259386, max=17408}
-IntSummaryStatistics{count=199, sum=52560, min=37, average=264.120603, max=17058}
-IntSummaryStatistics{count=247, sum=64101, min=77, average=259.518219, max=2169}
-261
-141
-201
+Statistics of time cost for remote data: count[125118], min[114], max[17408], avg[388.259385665529], median[261] (edited)
+Before the pool patch:
+Statistics of remote data: count[8860], min[114], max[19521], avg[2191.4144353899883], median[2194]
 * */
     public static void main(String[] args)
         throws Exception {
@@ -29,7 +27,7 @@ IntSummaryStatistics{count=247, sum=64101, min=77, average=259.518219, max=2169}
 
         final AtomicInteger sum = new AtomicInteger();
 
-        Files.walk(Path.of("/Users/baofeng.xue/Downloads"))
+        Files.walk(Paths.get("/Users/baofeng.xue/Downloads/_tomcat.oms.ots_2021.35.129_logs (1)"))
             .filter(p -> p.toString().contains("remote_data"))
             .forEach(
                 f -> {

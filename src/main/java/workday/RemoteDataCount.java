@@ -3,6 +3,7 @@ package workday;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -11,7 +12,7 @@ import java.util.stream.Stream;
 public class RemoteDataCount {
     public static void main(String[] args) throws Exception {
 
-        Files.walk(Path.of("/Users/baofeng.xue/Downloads")).filter(p -> p.toString().contains("remote_data")).forEach(
+        Files.walk(Paths.get("/Users/baofeng.xue/Downloads")).filter(p -> p.toString().contains("remote_data")).forEach(
             f -> {
                 Stream<String> lines = null;
                 try {
@@ -29,7 +30,7 @@ public class RemoteDataCount {
                     .sorted(Map.Entry.comparingByValue())
                     .forEach(System.out::println);
             }
-                                                                                                                     );
+                                                                                                                    );
 
     }
 }
