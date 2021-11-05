@@ -61,7 +61,7 @@ IntSummaryStatistics{count=247, sum=64101, min=77, average=259.518219, max=2169}
         IntSummaryStatistics diffsStat = diffs.stream().mapToInt(Integer::valueOf).summaryStatistics();
         System.out.println(fetchesStat);
         System.out.println(diffsStat);
-        System.out.println(String.format("Statistics of total time of remote data: invocation count[%s], min[%s], max[%s], avg[%s], median[%s]",
+        System.out.println(String.format("Statistics of remote data: count[%s], min[%s], max[%s], avg[%s], median[%s]",
             sum.get(),
             totalS.getMin(),
             totalS.getMax(),
