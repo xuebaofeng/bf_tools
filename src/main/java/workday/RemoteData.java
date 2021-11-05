@@ -61,15 +61,15 @@ public class RemoteData {
 
         IntSummaryStatistics totalS = totals.stream().mapToInt(Integer::valueOf).summaryStatistics();
         IntSummaryStatistics fetchesStat = fetches.stream().mapToInt(Integer::valueOf).summaryStatistics();
-        String format = "Statistics of total: count[%s], min[%s], max[%s], avg[%.1f], median[%s]";
-        System.out.println(String.format(format,
+        String format = ": count[%s], min[%s], max[%s], avg[%.1f], median[%s]";
+        System.out.println(String.format("Statistics of total" + format,
             sum.get(),
             totalS.getMin(),
             totalS.getMax(),
             totalS.getAverage(),
             median(totals)
                                         ));
-        System.out.println(String.format(format,
+        System.out.println(String.format("Statistics of fetch" + format,
             sum.get(),
             fetchesStat.getMin(),
             fetchesStat.getMax(),
