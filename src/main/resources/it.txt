@@ -1,0 +1,242 @@
+csdn
+iteye
+stackoverflow
+oschina
+infoq
+itpub
+架构，业务架构，JAVA， JVM； 期望ATA早日无线...
+51testing\csdn
+技术问题主要是靠搜索，没有专门关注的网站，论坛
+CSDN, ITEYE, OSCHAINA, INFOQ
+chinaunix
+根据google查询感兴趣的技术文章，CSDN,IBM开发...
+主要关注一些比较好的技术博客，以及Google、stack...
+主要是技术BLOG，论坛网站有INFOQ,CSDN,JAV...
+infoq,stackoverflow,iteye,git...
+c114
+Javaeye,stackflow,csdn
+javeeye,csdn
+www.cnblogs.com geek.csdn.net...
+infoq,stackoverflow
+www.52rd.com
+GITHUB CSDN 淘宝\腾讯\等UED论坛
+stack overflow，csdn等
+stack overflow, google, wikip...
+javaeye csdn 博客园
+mysql dev.
+apache.org github csdn
+新的测试技术、自动化、性能 关注较多的有51testing
+csdn hacknews raddit
+github，cnodejs.org, csdn
+德问网 unix技术网
+sf csdn hn stackoverflow
+csdn,iteye,opensource,51cto都会...
+iteye，facebook
+stackoverflow, google groups,...
+sourceforge, csdn, codeprojec...
+chinaunix,csdn,oschina
+ifeve.com、博客园
+ieeye stackoverflow apache
+CSDN Javaeye,程序员杂志 Lucene、Sol...
+一般去开源系统的官网查资料
+可不可以模仿学习IBM developwork
+csdn、博客园
+github，博客园，stackoverflow
+stackoverflow hacker news Dr....
+v2ex oschina
+github,javaeye,stackoverflow
+主要是CSDN。
+会阅读一些开源项目的相关源码，技术社区关注相对较少。
+infoq oschina
+http://www.csdn.net/ ht...
+iteye,csdn
+自平衡车，机器人，人工智能，搜索引擎
+CSDN, stackoverflow
+chinaunix csdn developerworks...
+Hacker News StackOverflow
+w3cPlus: http://www.w3cplus...
+通常是在google上搜索相关的文章
+itpub等
+http://cloud.csdn.net/ http:/...
+csdn.net/阿里学院
+微博、Google
+infoq huxiu.com
+计算机视觉方面的论坛，比如CSDN中一些博文，网易博客，新...
+StackOverflow，CSDN
+开源中国、csdn
+csdn\redis\mysql\算法
+http://hao.uisdc.com
+blog
+百度问题，那有看那个
+infoq, iteye
+知乎，target;比特；IDC圈；弯曲评论
+百度百科、百度贴吧等
+csdn,pudn
+chinaunix 和 各大开源项目的官方论坛
+主要了解公司内部的技术和业务培训资料
+iteye，51test，sourceforge，osch...
+stackoverflow 百度空间
+csdn，iteye
+bbs.chinaunix.net
+github,stackoverflow,objc.io,...
+oschina csdn
+infoq/iteye/Stack Overflow/
+stackoverflow，知乎，iteye，InfoQ，...
+github, stackoverflow
+一些大拿的个人网扎，一些平台的官方Blog
+apache,ibm,oracle
+CSDN, coolshell, 36kr, google...
+csdn,群邮件等
+qcon infoq csdn 以及某些个人博客
+coolshell
+CSDN、程序员、tcon等
+iteye,baidu,
+infoq, stackoverflow, reddit,...
+iteye，各种wiki，jira，博客园等
+csdn，infoq， eoe，android官网
+不限制，主要还是csdn，以及google
+www.csdn.net, www.oschina.net
+CSDN MSDN BLOGS.CN
+iteye,stackoverflow,android d...
+google 极客
+csdn，博客园，51cto，网易云阅读-科技精选，鲜果联...
+CSDN, 51CTO
+BBS 天涯
+一般上Youtube看数据中心视频，然后上google查
+开源论坛，csdn ，技术博客 数据挖掘相关的牛人主页
+codefore
+google groups , oschina, 各种rs...
+iteye,csdn,一些业内相关人士的博客和微薄
+知乎 google+ nodejs论坛
+ITEye，CSDN，github
+github、cnblogs、淘宝UED、携程UED、we...
+社区，网站，论坛
+apache portal google search o...
+CSDN等
+csdn,javaeys,blogcn
+javaEye
+CSDN,INFOQ
+itpub.net
+itpub,oracle论坛等
+oschina,csdn,stackoverflow
+csdn,iteye,w3school
+数据，创新业务
+iteye,infoq
+coolshell，iteye，infoQ
+stackoverflow quora 统计之都 知乎 c...
+CSDN，各个应用技术官方网站
+cdsn 一些群
+bbs.chinacloud.cn bbs.chinaun...
+csdn，相应技术官网
+stackoverflow iteye
+phpchina、csdn、微博上的技术分享
+CSDN, 等，访问的比较少。
+CSDN, MSDN其余随机搜索比较多。
+很多~
+infoQ,iteye,highscalability.c...
+weibo
+很少
+github stackoverflow csdn
+云梯，HBase
+Quora StackOverflow
+cnodejs 博客园 个人博客
+infoq; programmer.com.cn
+docs.kissyui.com w3cschool gi...
+StackOverflow，微博上的技术类信息，CSDN
+1.技术权威的个人博客 2.newsmth水木的相关技术版...
+InfoQ,csdn,TWTGroup
+比较杂，不固定
+CSDN，开源中国(http://www.oschina....
+csdn, java eye,51test
+手机研发论坛
+csdn， stackoverflow,博客园
+csdn, google plus, 博客园,androi...
+InfoQ StackOverFlow
+gitlab,stackoverflow,开源中国,ite...
+CSDN , LinuxEden
+虎嗅，新浪科技，aliway，techweb
+CSDN、ITEYE StackOverflow、Git...
+http://news.ycombinator.com/n...
+www.oschina.net， www.itpub.n...
+stackoverflow,javacodegeeks,t...
+伯乐在线，cnbeta， startup news等
+www.taobao.com
+新浪微博关注的人主要是技术圈的 另外现在主要看一些博客 h...
+1. Stackoverflow; 2.Github; 3...
+CSDN,51TESTING.
+oschina.net、http://www.cnblog...
+StackOverflow Google
+stackoverflow.com getprismati...
+各种博客rss订阅 社区： http://www.osch...
+csdn javaworld
+51testing
+github, stackoverflow, infoq,...
+51cto，iteye，apache jira
+感觉ATA不怎么经常上，不知道为什么，可能自己的项目或者是...
+stackoverflow，cplusplus
+主要关注几个国外牛人的blog和一些技术会议的文档
+LinuxToy\ 酷壳， hacknews
+wumi, w3school, 51testing
+github.com, stackoverflow.com...
+www.apache.org,www.iteye.com,...
+csdn,chinaunix
+csdn 51cto
+csdn,iteye,iresearch,infoq,虎嗅
+csdn博客 linuxsir
+stackoverflow.com zhihu.com c...
+各种情况都有
+Iteye, infoQ
+stack overflow 、 quora
+http://stackoverflow.com/ htt...
+CSDN StackOverflow
+eoe
+IBM DW
+ATA、CSDN。
+现在基本上很少上技术社区，通常都是订阅一些技术周刊，比如m...
+infoq iteye 及牛人博客
+开源中国 极客头条
+rss 订阅 csdn google group
+博客园、
+qcon
+stackoverflow.com iteye.com w...
+IT眼,csdn
+主要是google搜索出来，没有特定的技术论坛
+infoq 51cto csdn blogs
+csdn、51testing、豆瓣、infoQ、cnbet...
+CSDN, codeproject, android.de...
+google code, codeproject, sou...
+多筛选出一些高质量的内容和文章，乱糟糟的一个坛子没人愿意多...
+github stackoverflow google c...
+CSDN，IBM DWwork，开源社区等
+CSDN与国外技术论坛
+9ria
+51tesing
+InfoQ,CSDN
+github stack overflow CSDN I...
+oschina，github，segmentfault
+CSDN,51testing,javaeye
+ifeye、javaeye、csdn、itpub、orac...
+apache开源社区、csdn
+javaeye,highscability,twitter...
+无
+各种邮件列表，比如javascript Weekly, C...
+iteye、csdn、google dev、itpub、开...
+infoQ csdn、scm.org、chinaunix
+无线客户端测试 和 服务端性能测试 两方面
+javaeye qcon csdn
+1. 一般问题Google 2. StackOverfl...
+http://ifeve.com/ http://stac...
+infoq iteye
+itpub,csdn
+github csdn stackoverflow
+infoQ,iteye,github,cnode
+javaeye,程序员等
+CSDN，开源中国，数据堂，我爱自然语言处理，人大经济论坛
+iteye，ifeve，stackoverflow，cnb...
+https://github.com/
+stackoverflow 大牛博客
+www.macx.cn www.w3cfuns.com 主...
+关注一些会议，看会议proceedings。
+infoq iteye
+android-developer,xda-develop...
+stackoverflow iteye csdn 

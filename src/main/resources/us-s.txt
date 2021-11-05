@@ -1,0 +1,45 @@
+  263  git clone https://github.wdf.sap.corp/bizx/au-bestpractices.git
+  264  git clone https://github.wdf.sap.corp/bizx/au-integrationbuilderext.git
+  265  git clone https://github.wdf.sap.corp/bizx/idl-aytintegrationservice.git
+  266  git clone https://github.wdf.sap.corp/bizx/au-digitalexperience.git
+  267  git clone https://github.wdf.sap.corp/bizx/au-digitalexperience.git
+  268  git clone https://github.wdf.sap.corp/bizx/au-ecloc.git
+  269  git clone https://github.wdf.sap.corp/bizx/au-todo.git
+  270  git clone https://github.wdf.sap.corp/bizx/idl-tenantrefreshcore.git
+
+au-digitalexperience/au-digitalexperience-service/src/main/resources/upgradecenter/upgradeCenterConfig.xml
+idl-aytintegrationservice/idl-aytintegrationservice-service/src/main/resources/upgradecenter/platformReportingUpgrade.xml
+idl-aytintegrationservice/idl-aytintegrationservice-service/src/main/resources/upgradecenter/advancedReportingUpgrade.xml
+au-todo/au-todo-service/src/main/resources/upgradecenter/oneinboxprovisioning.xml
+au-ecloc/au-ecloc-service/src/main/resources/upgradecenter/ECCountrySpecificFeatures.xml
+au-recruiting/au-recruiting-service/src/main/resources/com/successfactors/configmanager/xml/cdm-task-dictionary.xml
+au-bestpractices/au-bestpractices-service/src/main/resources/upgradecenter/bestPracticesEmployeeCentralContentUpgrades.xml
+au-bestpractices/au-bestpractices-service/src/main/resources/upgradecenter/bestPracticesRecruitingGeneralSettingsUpgrades.xml
+au-bestpractices/au-bestpractices-service/src/main/resources/upgradecenter/bestPracticesCompensationEquityPaymentContentUpgrades.xml
+au-bestpractices/au-bestpractices-service/src/main/resources/upgradecenter/bestPracticesSuccessionManagementContentUpgrades.xml
+au-bestpractices/au-bestpractices-service/src/main/resources/upgradecenter/bestPracticesDemoDataContentUpgrades.xml
+au-bestpractices/au-bestpractices-service/src/main/resources/upgradecenter/bestPracticesPerformanceAndGoalsContentUpgrades.xml
+idl-tenantrefreshcore/idl-tenantrefreshcore-service/src/main/resources/upgradecenter/tenantRefreshUpgradeCenter.xml
+trunk/au-upgradecenter/au-upgradecenter-service/src/main/resources/upgradecenter/upgradeCenterConfig.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/investigateFeatureEnabler.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/ECLegalChangeUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/SSO_SPC.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/timeManagementUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/compensationUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/ECPayRoll.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/multiRaterUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/successionUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/intelligentUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/developmentUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/positionManagementUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/personalInformationUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/genericObjectsUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/turnOnSsoIAS.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/mobileAdminV2.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/goalManagementUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/optOutAccessToNonSecuredObjectUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/performanceUpgradeCenter.xml
+trunk/au-V4/au-V4-service/src/main/resources/upgradecenter/calibrationUpgradeCenter.xml
+au-talentreview/au-talentreview-service/src/main/resources/upgradecenter/upgradeCenterConfig.xml
+au-integrationbuilderext/au-integrationbuilderext-service/src/main/resources/upgradecenter/LMS_Sync.xml
+au-integrationbuilderext/au-integrationbuilderext-service/src/main/resources/upgradecenter/EC_RCM_Integration.xml
