@@ -10,24 +10,17 @@ compileJava.options.encoding = 'UTF-8'
 
 
 repositories {
-
-    mavenLocal()
     mavenCentral()
-    jcenter()
-    maven {
-        url "http://d-maven.googlecode.com/svn/trunk/repo"
-    }
 }
 
 
 dependencies {
-    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
-    compile group: 'com.jolbox', name: 'bonecp', version: '0.8.0.RELEASE'
-    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
-    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
-    compile group: 'org.springframework', name: 'spring-web', version: '5.2.1.RELEASE'
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.10.1'
-    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.1'
+    implementation group: 'com.jolbox', name: 'bonecp', version: '0.8.0.RELEASE'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.2'
+    implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
+    implementation group: 'org.springframework', name: 'spring-web', version: '5.2.1.RELEASE'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.10.1'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.1'
 }
 
 idea.project.ipr {
