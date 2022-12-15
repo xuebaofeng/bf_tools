@@ -3,6 +3,9 @@ package workday;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -22,7 +25,7 @@ public class TestDisabler {
         Set<String> cats = new HashSet<>();
 
         List<Path> javaFiles = Files.walk(
-                Path.of("/Users/baofeng.xue/code/oms/omsbase/src/test/java/com/workday/instancedata/relationship/"),
+                Paths.get("/Users/baofeng.xue/code/oms/omsbase/src/test/java/com/workday/instancedata/relationship/"),
                 1)
             .filter(path -> {
                 if (path.toFile().isDirectory()) {
@@ -57,14 +60,14 @@ public class TestDisabler {
             .sorted()
             .collect(Collectors.toList());
 
-        for (int i = javaFiles.size()/4*3; i < javaFiles.size()/8*7; i++) {
+        for (int i = javaFiles.size() / 4 * 3; i < javaFiles.size() / 8 * 7; i++) {
             final Path path = javaFiles.get(i);
             List<String> lines = Files.readAllLines(path);
             for (int j = 0; j < lines.size(); j++) {
                 final String line = lines.get(j);
                 if (line.contains("@Tag(OmsTestCategories.")) {
                     lines.add(j, DISABLED);
-                    Files.writeString(path, String.join("\n", lines));
+                    Files.write(path, lines);
                     break;
                 }
             }
