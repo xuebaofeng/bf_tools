@@ -15,3 +15,46 @@ public class ConversionIds {
     }
 
 }
+
+
+class Solution {
+    public int romanToInt(String s) {
+        int ans = 0;
+        char last = ' ';
+        for (char c : s.toCharArray()) {
+            switch (c) {
+                case 'I':
+                    ans += 1;
+                    break;
+                case 'V':
+                    if (last == 'I') ans -= 1;
+                    ans += 5;
+                    break;
+                case 'X':
+                    if (last == 'I') ans -= 1;
+                    ans += 10;
+                    break;
+                case 'L':
+                    if (last == 'X') ans -= 10;
+                    ans += 50;
+                    break;
+                case 'C':
+                    if (last == 'C') ans -= 10;
+                    ans += 100;
+                    break;
+
+                case 'D':
+                    if (last == 'C') ans -= 100;
+                    ans += 500;
+                    break;
+                case 'M':
+                    if (last == 'C') ans -= 100;
+                    ans += 1000;
+                    break;
+            }
+            last = c;
+        }
+
+        return ans;
+    }
+}
